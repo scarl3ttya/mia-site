@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TikTok login</title><style>body{font-family:system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;line-height:1.55;color:#222;background:#fff}h1{font-weight:600}a{color:#7a5c3e}footer{margin-top:40px;font-size:.9em;color:#666}</style>
+<h1>TikTok login complete</h1>
+<p>Copy this full URL and paste it into the command <code>python -m app.providers.tiktok code "..."</code>. The code works once and expires in minutes. Nothing is sent anywhere by this page.</p>
+<textarea id="u" rows="5" style="width:100%" readonly></textarea>
+<p><button onclick="navigator.clipboard.writeText(u.value);this.textContent='Copied'">Copy</button></p>
+<script>u.value=location.href</script></html>
